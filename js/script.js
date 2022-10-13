@@ -9,12 +9,12 @@ const list = [
                 "Black Domina 10g"
             ];
 
-const drugs = document.querySelector("ul");
+const drugList = document.querySelector("ul");
 
 let i = 0; 
 while (i < list.length) {
     let drug = (list[i]);
-    drugs.innerHTML += ` <li>${drug}</li> `;
+    drugList.innerHTML += ` <li>${drug}</li> `;
     i++
 }
 
